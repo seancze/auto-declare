@@ -1,0 +1,29 @@
+{
+  "name": "NOC auto-declare",
+  "description": "Automatically fills in health declaration form",
+  "repository": "https://github.com/seancze/auto-declare",
+  "env": {
+    "CHROMEDRIVER_PATH": "/app/.chromedriver/bin/chromedriver",
+    "GOOGLE_CHROME_BIN": "/app/.apt/usr/bin/google-chrome",
+    "USERNAME": "Enter your NUS student ID",
+    "PASSWD": "Enter your NUS email password",
+    "TZ": "Canada/Eastern",
+    "EMAIL": "Enter your email"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+    }
+  ],
+  "formation": {
+    "clock": {
+      "quantity": 1
+    }
+  }
+}

@@ -1,0 +1,8 @@
+auto-temp.zip
+venv/
+env/
+__pycache__
+.vscode/
+chromedriver
+.env
+.DS_Store
