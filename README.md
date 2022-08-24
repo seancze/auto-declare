@@ -21,4 +21,4 @@ If you're not, please stop the script and record your temperature manually!
 - `email` - Used to notify you if the script succeeds / fails
 
 3. Enter your `app_name` [here](https://kaffeine.herokuapp.com/) and click the button to prevent it from falling asleep.
-4. To ensure that it is working, **ensure that you receive 1 email a week every Wednesday between 0730 and 0930**.
+4. To ensure that it is working, **ensure that you receive 1 email a week every Monday between 0730 and 0930**.
